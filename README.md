@@ -1,4 +1,4 @@
-#Slackify
+# Slackify
 
 This thing uses Scala Native. There are some steps you need to take prior to building the project:
 

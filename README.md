@@ -5,7 +5,7 @@ This thing uses Scala Native. There are some steps you need to take prior to bui
 Scala Native website http://www.scala-native.org/
 Current version environment setup steps: http://www.scala-native.org/en/v0.3.9-docs/user/setup.html
 
-Basically, on a Mac, assuming you have java and sbt setup, the one thing extra you'll need to do is install llvm toolchain `brew install llvm` and you should be ready to go.
+Basically, on a Mac, assuming you have your Scala development environment in place (i.e. java / scala / sbt installed), the one thing extra you'll need to do is install `llvm` toolchain `brew install llvm` and you should be ready to go.
 
 ```
 sbt nativeLink

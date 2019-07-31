@@ -1,5 +1,15 @@
 # Slackify
 
+Turns the program argument into a series of colon-surrounded letters, leaving punctuation alone and replacing whitespace with `:blank:` emoji. It's up to you to load the emojis into your Slack workspace:
+
+e.g.
+
+`slackify "Hello World!"` produces `:h::e::l::l::o::blank::w::o::r::l::d:!`
+
+You can copy-paste the output into a slack message, and, provided you have emojis for each letter of the alphabet (i.e. `:a:`, `:b:`, `:c:`, etc.), your message will become a lot more colourful and exciting:
+
+![Hello World!](slack-hello-world.png)
+
 This thing uses Scala Native. There are some steps you need to take prior to building the project:
 
 Scala Native website http://www.scala-native.org/

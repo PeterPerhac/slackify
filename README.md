@@ -17,13 +17,9 @@ Current version environment setup steps: http://www.scala-native.org/en/v0.3.9-d
 
 Basically, on a Mac, assuming you have your Scala development environment in place (i.e. java / scala / sbt installed), the one thing extra you'll need to do is install `llvm` toolchain `brew install llvm` and you should be ready to go.
 
-```
+```bash
 sbt nativeLink
-
 ./target/scala-2.11/slackify-out "Hello world"
-
-# or do both of the above in a single step:
-sbt 'run "Hello world"'
 ```
 
-2019-07-30 Peter Perhac
+<sub>Copyright © July 30th 2019 by Peter Perhac. All rights reserved.</sub>
